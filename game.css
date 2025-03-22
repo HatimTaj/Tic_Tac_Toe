@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fdf0d5;
+    font-family: 'Arial', sans-serif;
+}
+h1{
+    text-align: center;
+    color: #780000;
+    font-size: 3em;
+    margin-top: 0;  
+}
+
+#game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#board{
+    display: flex;
+    justify-content: center;    
+    flex-wrap: wrap;
+    align-items: center;
+    height: 34em;
+    width: 34em;
+    gap: 2em;
+    
+}
+.cell{
+    height: 10em;
+    width: 10em;
+    background-color: #003049;
+    border-radius:  1em;
+    color: #fdf0d5;
+    cursor: pointer;
+}

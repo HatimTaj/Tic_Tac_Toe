@@ -32,4 +32,20 @@ h1{
     color: white;
     cursor: pointer;
     font-size: 60px;
+    border-radius: 20px;
+    border: none;
+}
+#status{
+    color: #780000;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#reset{
+    background-color: #780000;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-top: 20px;  
 }
